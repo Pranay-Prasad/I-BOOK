@@ -1,10 +1,12 @@
 {
   "name": "cloudbook-backend",
   "version": "1.0.0",
-  "description": "cloudbook is a cloud based notebook to store important notes of users",
+  "description": "I-Book is a cloud based notebook to store important notes of users",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install  && npm run build"
+
   },
   "author": "",
   "license": "ISC",
