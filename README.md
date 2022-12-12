@@ -12,6 +12,9 @@ I have been working on this MERN stack project as my learning project which has 
 User can login to the account or create a new one with the help of dummy data. This project is something i have been working as a learning 
 so there migh be a chance of few bugs. But it will be highly appriciated if you report any issues or recommendatuon.
 ![preview](https://user-images.githubusercontent.com/78464424/207008377-07c27f85-e9e4-4a7f-bb9a-684b57e2241d.png)
+
+![Architecture](https://user-images.githubusercontent.com/78464424/207011062-6ebb0fc1-f874-4545-ac24-0708cbe92c7d.png)
+
 ## KEY-FEATURES
 
 1. User Login and sign up which is secured using JWT (JSON Web Token).
