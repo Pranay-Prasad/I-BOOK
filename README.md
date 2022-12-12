@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# I-Book
 
-## Available Scripts
+Full stack project using MERN(MongoDB, Express js, React js, Node js) which allows users to create and login to account 
+and Create, Render, Update and Delete personal notes. 
 
-In the project directory, you can run:
 
-### `npm start`
+## INTRODUCTION
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I have been working on this MERN stack project as my learning project which has the functuonality to store notes and upadte and delete it.
+User can login to the account or create a new one with the help of dummy data. This project is something i have been working as a learning 
+so there migh be a chance of few bugs. But it will be highly appriciated if you report any issues or recommendatuon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## KEY-FEATURES
 
-### `npm test`
+1. User Login and sign up which is secured using JWT (JSON Web Token).
+2. Create, Read, Update and Delete functionality for notes.
+3. Pop up when actions are Performed.
+4. Used Bootstrap for modern CSS
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client:** 
+- React
+- React-Router-DOM (Handel Routing)
+- Bootstrap (Front-end styling framework)
+- React Hooks  
 
-### `npm run build`
+**Server:** 
+- Node js
+- Mongoose
+- Express js 
+- bcrybt (for data encryption)
+- JWT (For Authentication)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**DataBase:**
+- MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project from reposiory.
 
-### `npm run eject`
+```bash
+  git clone https://github.com/Pranay-Prasad/I-BOOK
+```
+Open the code editior and seperate two terminals.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to Backend folder in one of the terminals and install nodemon
+```
+    cd Backend
+    npm i nodemon
+```
+Add the mongodb connection string in db.js file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies in other folder
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm init
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the server for backend
 
-## Learn More
+```bash
+  nodemon index.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server for Frontend
+```bash
+npm run start
+```
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Linkedin [@pranayprasad42](https://www.linkedin.com/in/pranayprasad42)
 
-### Code Splitting
+- Instagram [@pranay.prasad](https://www.instagram.com/pranay.prasad)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Portfolio [@pranay](https://pranay-prasad.github.io/portfolio/)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email [@pranayprasad42@gmail.com]()
